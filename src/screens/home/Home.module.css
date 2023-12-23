@@ -1,0 +1,106 @@
+main {
+    margin: 50px 100px;
+    width: 50%;
+    float: left;
+}
+
+aside {
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 5%;
+    float: left;
+}
+
+main .note {
+    margin-bottom: 50px;
+    background-color: #6d5656;
+    padding: 20px;
+}
+
+.noteContainer {
+    margin: 50px 100px;
+    width: 80%;
+    margin-bottom: 50px;
+    background-color: #6d5656;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.noteInfo {
+    flex: 2;
+    padding-left: 20px;
+    text-align: left;
+}
+
+main .delete {
+    float: right;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+main .edit {
+    float: right;
+    margin-right: 15px;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+main .delete:hover,
+main .edit:hover {
+    opacity: 0.5;
+}
+
+main button {
+    margin-top: 10px;
+    width: 20%;
+    cursor: pointer;
+    transition: transform 500ms ease;
+    background: #3b3b3b;
+    color: #fff;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 300;
+    border: 0;
+    padding: 5px
+}
+
+main button:hover {
+    transform: scale(1.02);
+}
+
+form input, form button, form textarea {
+    width: 90%;
+    padding: 15px 5%;
+    margin-bottom: 10px;
+    background: #312c2c;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 300;
+    border: 0;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    width: 100%;
+    cursor: pointer;
+    transition: transform 500ms ease;
+    background: #3b3b3b
+}
+
+form button:hover {
+    transform: scale(1.02);
+}
+
+note form {
+    margin-top: 25px;
+}
+
+.note form input,
+.note form textarea {
+    background: #222222;
+}
